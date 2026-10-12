@@ -1,0 +1,5 @@
+# Coursework evidence stays in the local submission, not the public website.
+/evidence/
+/docs/
+/network_test.py
+__pycache__/

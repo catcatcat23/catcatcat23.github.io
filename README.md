@@ -12,4 +12,6 @@ The original Profile repository contains a README rather than an existing websit
 
 Preview locally with `python -m http.server 8000 --directory Question2` from the coursework directory, then visit http://localhost:8000.
 
-For GitHub Pages, publish this directory's `index.html` and `styles.css` at the root of a Pages source branch. Network testing and report evidence are separate coursework steps.
+Live website: https://catcatcat23.github.io/
+
+GitHub Pages publishes the main branch at the repository root with HTTPS enforced. The local coursework copy also includes network_test.py, docs/ and evidence/ for the tests and report. Those test artifacts are excluded from this public repository.

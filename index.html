@@ -1,60 +1,74 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="catcatcat23 — student developer exploring AI, robotics simulation, and creative coding.">
-  <title>catcatcat23 · Personal projects</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Anteng Cai — undergraduate AI researcher exploring medical AI, representation learning, and multimodal systems.">
+  <meta name="theme-color" content="#f6f5f1">
+  <title>Anteng Cai · Medical AI & Representation Learning</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="assets/vendor/motion-12.23.24.js"></script><script defer src="script.js"></script>
 </head>
-<body>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="reading-progress" aria-hidden="true"></div>
   <header class="site-header">
-    <a class="brand" href="./" aria-label="Home"><span class="brand-mark" aria-hidden="true">c.</span> catcatcat23</a>
-    <a class="profile-link" href="https://github.com/catcatcat23">GitHub profile <span aria-hidden="true">↗</span></a>
+    <a class="brand" href="#top" aria-label="Anteng Cai, home"><span class="brand-mark" aria-hidden="true">c.</span> catcatcat23</a>
+    <nav aria-label="Main navigation"><a href="#research">Research</a><a href="#experience">Experience</a><a href="#projects">Projects</a></nav>
+    <a class="profile-link" href="https://github.com/catcatcat23">GitHub <span aria-hidden="true">↗</span></a>
   </header>
-  <main>
+  <main id="main">
     <section class="intro" aria-labelledby="intro-title">
       <div class="intro-copy">
-        <p class="eyebrow">STUDENT DEVELOPER</p>
-        <h1 id="intro-title">Hi, I'm catcatcat23<span class="accent">.</span></h1>
-        <p class="lead">Learning by building.</p>
-        <p class="bio">I enjoy experimenting with deep learning models, building small games, and trying out robotics simulations in ROS2.</p>
-        <div class="tags" aria-label="Languages and tools"><span>Python</span><span>C++</span><span>JavaScript</span><span>ROS2</span><span>PyTorch</span></div>
+        <p class="eyebrow">AI RESEARCH STUDENT</p>
+        <h1 id="intro-title">Hi, I'm Anteng Cai<span class="accent">.</span></h1>
+        <p class="lead">Learning by building.<br>Researching for better care.</p>
+        <p class="bio">I explore medical AI, representation learning, and multimodal systems — from respiratory sounds and robust ECG models to organ-centric image segmentation.</p>
+        <div class="hero-actions"><a class="button primary" href="#research">Explore my research <span aria-hidden="true">↘</span></a><a class="button" href="mailto:670977359@qq.com">Get in touch <span aria-hidden="true">↗</span></a></div>
+        <div class="tags" aria-label="Research interests"><span>Medical AI</span><span>Representation learning</span><span>Multimodal systems</span></div>
       </div>
-      <aside class="notes" aria-label="About me">
-        <span class="note-symbol" aria-hidden="true">✳</span>
-        <h2>A little about me</h2>
-        <p>Currently learning deep learning, robotics simulation, and web development.</p>
-        <p>Interested in AI for healthcare, robotics, and creative open-source tools.</p>
-        <p class="personal-note">I often build projects just to learn something new.</p>
+      <aside class="notes" aria-label="Current focus">
+        <div class="note-heading"><span class="eyebrow">RESEARCH NOTE / 01</span><span class="note-symbol" aria-hidden="true">✳</span></div>
+        <div class="signal" aria-hidden="true"><svg viewBox="0 0 320 96" fill="none"><path class="signal-grid" d="M0 24H320M0 48H320M0 72H320M40 0V96M80 0V96M120 0V96M160 0V96M200 0V96M240 0V96M280 0V96"/><path class="signal-line" d="M0 53H45L55 44L65 53H100L111 65L123 15L137 82L150 45L161 53H197L210 42L222 53H260L270 65L282 17L295 78L308 53H320"/></svg></div>
+        <h2>Signals. Structure. Understanding.</h2><p>How can we learn useful representations from imperfect medical data?</p>
+        <p class="personal-note">Currently exploring organ-specific token banks, missing-lead ECG robustness, and controllable respiratory-sound generation.</p>
+        <span class="small-note">A question that connects my work.</span>
       </aside>
     </section>
-    <section class="projects" aria-labelledby="projects-title">
-      <div class="section-heading"><h2 id="projects-title">Selected projects</h2><span>From my GitHub</span></div>
-      <div class="project-grid">
-        <a class="project-card" href="https://github.com/catcatcat23/astral3d-editor-with-rocksi">
-          <div class="card-top"><span class="category">CREATIVE CODING</span><span class="arrow" aria-hidden="true">↗</span></div>
-          <h3>3D editor &amp; Rocksi</h3><p>A 3D editor with a custom card-based programming interface, built with JavaScript.</p>
-          <div class="card-bottom"><span>JavaScript · 3D</span><span>View project <span aria-hidden="true">→</span></span></div>
-        </a>
-        <a class="project-card" href="https://github.com/catcatcat23/conditional_vq_vae">
-          <div class="card-top"><span class="category">DEEP LEARNING</span><span class="arrow" aria-hidden="true">↗</span></div>
-          <h3>Conditional VQ-VAE</h3><p>Exploring data augmentation for small-sample audio datasets using a Conditional VQ-VAE.</p>
-          <div class="card-bottom"><span>Audio · Generative models</span><span>View project <span aria-hidden="true">→</span></span></div>
-        </a>
-        <a class="project-card" href="https://github.com/catcatcat23/Classification-of-Respiratory-Sounds">
-          <div class="card-top"><span class="category">AI &amp; HEALTHCARE</span><span class="arrow" aria-hidden="true">↗</span></div>
-          <h3>Respiratory sound classification</h3><p>Applying deep learning to medical audio through respiratory sound classification.</p>
-          <div class="card-bottom"><span>Deep learning · Medical audio</span><span>View project <span aria-hidden="true">→</span></span></div>
-        </a>
-        <a class="project-card" href="https://github.com/catcatcat23/try_ur5_gazebo_moveit_rviz">
-          <div class="card-top"><span class="category">ROBOTICS</span><span class="arrow" aria-hidden="true">↗</span></div>
-          <h3>UR5 robot simulation</h3><p>First steps into robotics: simulating a UR5 arm with Gazebo, MoveIt, and RViz.</p>
-          <div class="card-bottom"><span>ROS2 · Simulation</span><span>View project <span aria-hidden="true">→</span></span></div>
-        </a>
+    <section class="education-strip reveal" aria-label="Education">
+      <div><span class="eyebrow">EDUCATION</span><h2>University of Liverpool</h2><p>B.Sc. · Data Science and Big Data Technology</p></div>
+      <div class="education-detail"><span>Sep 2023 — Present</span><strong>3.6 <small>/ 4.0 GPA</small></strong></div>
+      <div class="scholarship"><span class="award-mark" aria-hidden="true">✧</span><p>Academic Half Scholarship<span>Top 10% · 2023–2024</span></p></div>
+    </section>
+    <section id="research" class="section" aria-labelledby="research-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED RESEARCH</p><h2 id="research-title">Learning from medical data.</h2></div><span>Sound, signals &amp; images</span></div>
+      <div class="research-grid">
+        <article class="research-card reveal"><div class="card-top"><span class="category">GENERATIVE AUDIO</span><span class="index">01</span></div><span class="status">ICASSP 2027 · Submitted</span><h3>C2GA</h3><p class="subtitle">Respiratory sound generative augmentation</p><p>Class-controllable synthesis for small, noisy, and imbalanced respiratory-sound datasets.</p><div class="metric"><strong>+6.65 <small>pp</small></strong><span>Validation macro-F1 · Dataset 2<br>42.85% → 49.50%</span></div><details><summary>My contribution &amp; method</summary><p>Third author. Reproduced temporal and self-supervised baselines, built downstream classification experiments, ran ablations, tuned augmentation settings, and contributed to verification and manuscript revision.</p><p>Conditional VQ-VAE → autoregressive prior → controlled synthesis → downstream validation. Dataset 1 macro-F1 improved from 73.20% to 77.15%.</p></details><div class="card-bottom"><span>VQ-VAE · Transformer</span><a href="https://github.com/catcatcat23/conditional_vq_vae">Related code ↗</a></div></article>
+        <article class="research-card reveal"><div class="card-top"><span class="category">ROBUST BIOSIGNALS</span><span class="index">02</span></div><span class="status">IEEE BIBM 2026 · Accepted short paper</span><h3>Missing-lead ECG</h3><p class="subtitle">Controlled attribution of robustness</p><p>Understanding what makes ECG classifiers robust when anatomical groups of leads are missing.</p><div class="metric"><strong>+0.0243</strong><span>Hard-structured macro AUPRC<br>Compact 1D-ResNet · PTB-XL</span></div><details><summary>My contribution &amp; method</summary><p>Third author. Contributed to controlled ablation design, robustness evaluation, result analysis, hyperparameter comparison, and manuscript preparation.</p><p>Structured masking improved macro AUPRC from 0.7494 to 0.7737 for the compact 1D-ResNet. Gains also held for xResNet1d101 and InceptionTime1d, with consistent direction across all five seeds.</p></details><div class="card-bottom"><span>Structured masking · PTB-XL</span><span>2026</span></div></article>
+        <article class="research-card reveal"><div class="card-top"><span class="category">MEDICAL IMAGING</span><span class="index">03</span></div><span class="status ongoing">Ongoing research</span><h3>OrganSlot / OWT</h3><p class="subtitle">Modular organ representations</p><p>Appendable, optionally frozen organ-specific token banks for modular medical image segmentation.</p><div class="metric"><strong>+10.76 <small>pp</small></strong><span>Direct-post Dice · WORD ROI20<br>64.44% → 75.20%</span></div><details><summary>My contribution &amp; method</summary><p>Implemented PyTorch/DDP training and evaluation, resolved distributed all-reduce deadlocks, and ran 2D/3D shared-head, independent-query, Slot Attention, and reconstruction ablations.</p><p>Current evidence is all-class offline. AutoPET Direct Dice was 87.98% versus 88.30% for OWT; indirect reconstruction remains a bottleneck (7.39% on WORD ROI20).</p></details><div class="card-bottom"><span>Slot Attention · ViT · DDP</span><span>2026 — Present</span></div></article>
       </div>
     </section>
+    <section id="experience" class="section experience-section" aria-labelledby="experience-title">
+      <div class="experience-intro reveal"><p class="eyebrow">02 / INDUSTRY EXPERIENCE</p><h2 id="experience-title">From experiments<br>to working systems.</h2><p>Hands-on work across industrial vision, speech recognition, and multimodal model development.</p><a class="text-link" href="mailto:670977359@qq.com">Let's connect <span aria-hidden="true">↗</span></a></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-heading"><h3>Shiyuan Technology</h3><span>Aug 2025 — Mar 2026</span></div><p class="role">Computer Vision Algorithm Intern</p><p>Built PCBA data and evaluation pipelines, explored model calibration and parameter fusion, and implemented U-Net3+ DataMatrix reconstruction with <strong>98% offline accuracy</strong>.</p><details><summary>Patent contribution</summary><p>Contributed technical work supporting granted Chinese invention patent CN122510276B on multi-model parameter fusion for PCBA image detection (Sep 2026).</p></details><div class="tags"><span>Industrial vision</span><span>Calibration / ECE</span><span>U-Net3+</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-heading"><h3>DeepBlue Technology</h3><span>Nov 2024 — Jun 2025</span></div><p class="role">AI Algorithm and Product Intern</p><p>Reproduced CLIP/BERT-based models for image classification, medical NLP, and NER; trained Transformer models and validated Docker deployments.</p><div class="tags"><span>CLIP / BERT</span><span>PyTorch</span><span>Docker</span></div></article>
+        <article class="timeline-item reveal"><div class="timeline-heading"><h3>iFLYTEK</h3><span>Dec 2024 — Feb 2025</span></div><p class="role">Speech AI Algorithm Intern</p><p>Prepared and checked speech datasets, assisted Conformer, Paraformer, and Transformer-CTC experiments, and analyzed recognition quality with WER/CER.</p><div class="tags"><span>ASR</span><span>Audio augmentation</span><span>Conformer</span></div></article>
+      </div>
+    </section>
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / EXPLORATIONS</p><h2 id="projects-title">Always building something.</h2></div><span>Research tools &amp; side projects</span></div>
+      <div class="project-filters" role="group" aria-label="Filter projects" hidden><button type="button" data-filter="all" aria-pressed="true">All projects</button><button type="button" data-filter="medical" aria-pressed="false">Medical AI</button><button type="button" data-filter="robotics" aria-pressed="false">Robotics</button><button type="button" data-filter="creative" aria-pressed="false">Creative coding</button></div><p id="filter-status" class="sr-only" aria-live="polite"></p>
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="medical"><div class="card-top"><span class="category">MEDICAL IMAGING</span><span class="arrow" aria-hidden="true">↗</span></div><h3>Lumbar spine imaging</h3><p>Reproducing the RSNA 2024 lumbar-spine pipeline; training nnU-Net v2 on SPIDER and investigating segmentation-guided anatomical priors.</p><div class="card-bottom"><span>nnU-Net v2 · MRI · 3D</span><span>In progress</span></div></article>
+        <a class="project-card reveal" data-category="medical" href="https://github.com/catcatcat23/Classification-of-Respiratory-Sounds"><div class="card-top"><span class="category">MEDICAL AUDIO</span><span class="arrow" aria-hidden="true">↗</span></div><h3>Respiratory sound classification</h3><p>Exploring deep learning for respiratory sound classification, with audio preprocessing and downstream model evaluation.</p><div class="card-bottom"><span>Deep learning · Audio</span><span>View repository →</span></div></a>
+        <article class="project-card reveal" data-category="robotics"><div class="card-top"><span class="category">ROBOTICS &amp; REINFORCEMENT LEARNING</span><span class="arrow" aria-hidden="true">⌁</span></div><h3>Robotic arm simulation</h3><p>ROS2 + Isaac Sim control and planning; reinforcement-learning state, action, and reward design, with WebSocket-based visualization.</p><div class="card-bottom"><span>ROS2 · Isaac Sim · RL</span><span>Jun — Aug 2025</span></div></article>
+        <a class="project-card reveal" data-category="creative" href="https://github.com/catcatcat23/astral3d-editor-with-rocksi"><div class="card-top"><span class="category">CREATIVE CODING</span><span class="arrow" aria-hidden="true">↗</span></div><h3>3D editor &amp; Rocksi</h3><p>A small creative playground: a 3D editor with a custom card-based programming interface, built with JavaScript.</p><div class="card-bottom"><span>JavaScript · 3D</span><span>View repository →</span></div></a>
+      </div>
+      <a class="text-link more-projects" href="https://github.com/catcatcat23/try_ur5_gazebo_moveit_rviz">Also on GitHub: UR5 with Gazebo, MoveIt &amp; RViz ↗</a>
+    </section>
+    <section class="toolbox section reveal" aria-labelledby="toolbox-title"><div><p class="eyebrow">04 / TOOLBOX</p><h2 id="toolbox-title">Tools I work with.</h2></div><div class="skill-groups"><div><h3>Models &amp; learning</h3><p>PyTorch · TensorFlow · Transformers · VQ-VAE · CLIP · Slot Attention · MAE</p></div><div><h3>Medical &amp; speech AI</h3><p>nnU-Net v2 · MONAI · DICOM / NIfTI · Librosa · Torchaudio · FFmpeg</p></div><div><h3>Code &amp; systems</h3><p>Python · C++ · SQL · Linux · Docker · CUDA · PyTorch DDP · ROS2</p></div></div></section>
+    <section class="contact reveal" aria-labelledby="contact-title"><div><p class="eyebrow">KEEP IN TOUCH</p><h2 id="contact-title">Good work starts with a conversation.</h2><p>Medical AI, representation learning, or an interesting idea to build together.</p></div><a class="button primary" href="mailto:670977359@qq.com">Say hello <span aria-hidden="true">↗</span></a></section>
   </main>
-  <footer><span>catcatcat23 <span aria-hidden="true">/</span> A personal corner of the web.</span><a href="https://github.com/catcatcat23">More on GitHub ↗</a></footer>
+  <footer><span>Anteng Cai <span aria-hidden="true">/</span> Learning by building.</span><div><button id="motion-toggle" type="button" aria-pressed="false" hidden>Pause animations</button><a href="#top">Back to top ↑</a></div></footer>
 </body>
 </html>
